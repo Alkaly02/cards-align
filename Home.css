@@ -228,3 +228,14 @@
         
         padding-bottom: 40px;
     }
+
+    @media(max-width: 637px){
+        .list-group-flush li > a{
+            font-size: 0.85em;
+        }
+    }
+    @media(max-width: 576px){
+        .list-group-flush li > a{
+            font-size: 1em;
+        }
+    }
